@@ -10,7 +10,7 @@ Route::get('/test',function() {
     return view('test');
 });
 
-Route:: get ('/crudy',function(){
+Route:: get ('/cruda',function(){
     $age=33;
     $data=['name' => 'Sergio','age'=>20];
     return view('crud/index',$data);
