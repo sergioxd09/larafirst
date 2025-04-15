@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Controllers\Dashboard\PostController;
 use App\Http\Controllers\PrimerControlador;
 use App\Http\Controllers\SegundoControlador;
 use Illuminate\Support\Facades\Route;
@@ -32,7 +31,3 @@ Route::get('otro/{post}/{otro} ', [PrimerControlador::class,'otro'/*iNDEX nombre
 
 
 Route::resource('post', PrimerControlador::class);
-
-
-//jalando controlador para crud
-route::resource('post',PostController::class);
